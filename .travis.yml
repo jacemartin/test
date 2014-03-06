@@ -2,7 +2,7 @@ language: node_js
 before_script:
 - "npm install -g se-interpreter"
 script:
-- "se-interpreter test/selenium/interpreter1_config.json"
+- "se-interpreter selenium/interpreter_config.json"
 env:
 global:
 - SAUCE_USERNAME-jacemartin
