@@ -9,7 +9,7 @@
 						"port": 80
 					},
 					"browserOptions": {
-						"browserName": "Firefox",
+						"browserName": "firefox",
 						"username": "${SAUCE_USERNAME}",
 						"accesKey": "${SAUCE_ACCESS_KEY}"
 					}
