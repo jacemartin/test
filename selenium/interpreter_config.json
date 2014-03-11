@@ -6,7 +6,7 @@
 				{
 					"driverOptions": {
 						"host": "ondemand.saucelabs.com",
-						"port": 80
+						"port": "80"
 					},
 					"browserOptions": {
 						"browserName": "firefox",
