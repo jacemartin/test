@@ -5,5 +5,5 @@ script:
 - "se-interpreter selenium/interpreter_config.json"
 env:
 global:
-- SAUCE_USERNAME=jacemartin
-- secure: "3qQ2VfTbqbz4qHMUiRjpM0DZ4ueK83Qu7o8HVhgcr+hq7519F10whoLLD58vsx7JtmCTplVnfA84GpGMMnTy+bZUFy2fQhqVPyC848+SSGHazZVymcjFXwyi/ZbZobwNwJIIiGI+jcod3wmfS+53EguEzwmMPkHuWHDoxMgUgK8="
+- SAUCE_USERNAME=jaceqmartin
+- secure: "Qp3GYAE0ceuwiO9b/stDZQW/V8VftZpQ3fL7lqhR8ip6/XgFcIthdKnkzeY6cDNOUtOP7XiUZGkq4X+Plkjslc3MPqmmRw6/FkzVBNWeX9TZ2vO6vRVu/BzNcCgkRWH39NkyclAS34JKb4FK58jsv+MgFYKRt5WAiTnE8ZkEZTQ="
