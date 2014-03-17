@@ -10,7 +10,7 @@
 					},
 					"browserOptions": {
 						"browserName": "firefox",
-						"username": "jacemartin",
+						"username": "${SAUCE_USERNAME}",
 						"accessKey": "${SAUCE_ACCESS_KEY}"
 					}
 				}
