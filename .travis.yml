@@ -6,4 +6,4 @@ script:
 env:
 global:
 - SAUCE_USERNAME=jacemartin
-- secure: "rA5OoZQaScARHEbUQPYoK+N9xxE1jCRzzXfomqq8kk1A6vnSAeXP8euawoHT8g4K48KqPy/Gt7m8TDJgxyl+dBDU4j3N9+Gt0KCqvVaqMNq5t4FEvPqnc8Fv5tfdKqmJPJo2vqNoBauToUZf3JhZzJv49J5bwoKd19443v+XT6s="
+- secure: "3qQ2VfTbqbz4qHMUiRjpM0DZ4ueK83Qu7o8HVhgcr+hq7519F10whoLLD58vsx7JtmCTplVnfA84GpGMMnTy+bZUFy2fQhqVPyC848+SSGHazZVymcjFXwyi/ZbZobwNwJIIiGI+jcod3wmfS+53EguEzwmMPkHuWHDoxMgUgK8="
