@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://visa.ci.modirum.com" />
+<title>eztv</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">eztv</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://eztv.it</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.featured_info &gt; a &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='header_holder']/table[2]/tbody/tr[2]/td/table[2]/tbody/tr/td</td>
+	<td>exact:Episode Breakdown <br /> Show: Otherworlds (2014) (show info)<br /> Date: 2014<br /> Released: 22nd Apr 2014<br /> Filesize: 711.97 MB<br /> <br /> Episode Description <br /> &quot;Otherworlds (2014)&quot; -- VODO's second installment of the indie Sci-Fi bundle, Otherworlds.<br /> Otherworlds 2014 is a collection of mind-blowing films, games, comics, books, posters/wallpapers, music, and more.<br /> <br /> There are several bundles to choose from. Our torrent is the FREE bundle.<br /> Additional bundle options and content are available at: http://vodo.net/otherworlds?referer=eztv <br /> <br /> ======================================================<br /> 2 Short Films<br /> ======================================================<br /> <br /> The Naturalist (2012) -- A gay man living in a genetically modified society is given the chance to alter his sexuality. He must weigh his loving relationship, his dignity and his survival in this short film about the origins of sexuality.<br /> <br /> Jouet -- A dark and compelling tale of genetically engineered machines that seem to be capable of love. In the film, it's perfectly normal for war widows to have life-like robot copies of their dead partners, but things get out of hand when one Jouet starts to feel emotions.&quot;<br /> <br /> ...and a couple film trailers: Ghosts With Shit Jobs -and- Haphead.<br /> <br /> Additional films available in other budles at: http://vodo.net/otherworlds?referer=eztv <br /> <br /> ======================================================<br /> Books / Comics<br /> ======================================================<br /> <br /> Cory Doctorow's Futuristic Tales of the Here and Now -- A six-part collection of short stories by Cory Doctorow, adapted in sumptuous comic book format by different artists. The collection is presented in 300dpi by VODO exclusively and includes adaptations of award-winning stories &quot;Craphound,&quot; &quot;Anda's Game,&quot; &quot;When Sysadmins Ruled the Earth,&quot; &quot;After the Siege,&quot; &quot;I, Robot&quot; and &quot;Nimby and the D-Hoppers.&quot;<br /> <br /> This FREE bundle, this torrent, includes &quot;Anda's Game&quot;<br /> For the other stories, go to http://vodo.net/otherworlds?referer=eztv <br /> <br /> ======================================================<br /> Game<br /> ======================================================<br /> <br /> Bientot l'ete -- A New York Times Bestseller and now a major motion picture, this acclaimed five-part comic series, collected here in one volume, is written by Robert Venditti, drawn by Brett Weldele, and published by Top Shelf Productions. -- Quite unlike any other game, Bientot l'ete invites players into a strange and desolate space based on French novelist Marguerite Duras' ancient Earth literature. Using the spoken/written word, the chessboard and copious amounts of wine, two players must negotiate their connection in a starkly bare universe. Existential!<br /> <br /> Note: Game NOT included in the torrent of the FREE bundle.<br /> For the Game, go to http://vodo.net/otherworlds?referer=eztv <br /> <br /> ======================================================<br /> Music<br /> ======================================================<br /> <br /> The Sound by Maria Minerva (video)<br /> The Hideout by Sabled Sun (mp3)<br /> The Ancient by Sabled Sun (mp3)<br /> My New Best Friend by Sabled Sun (mp3)<br /> Dying Robot by Sabled Sun (mp3)<br /> <br /> Additonal music tracks available at: http://vodo.net/otherworlds?referer=eztv</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=show info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='header_holder']/table[2]/tbody/tr[2]/td/center/table/tbody/tr[5]/td/b[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='header_holder']/table[2]/tbody/tr[2]/td/center/table/tbody/tr[5]/td/b[2]</td>
+	<td>Airing</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
