@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://visa.ci.modirum.com" />
+<title>PANDecrypt</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">PANDecrypt</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/mdpayacs-admin/transactions/transactionView.htm?id=4850131</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=451992...0000</td>
+	<td>451992...0000</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=decryptLink</td>
+	<td>Decrypt PAN</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=decryptLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=decryptLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=panDecryptTd</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=hideDecryptPanLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>4519922000059000000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=hideDecryptPanLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=hideDecryptPanLink</td>
+	<td>Hide PAN</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=hideDecryptPanLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>451992...0000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>4519922000059000000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Hide PAN</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Decrypt PAN</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

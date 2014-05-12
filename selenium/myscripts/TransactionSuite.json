@@ -8,10 +8,10 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="../../../../../../Volumes/Work/code/github/ACS/selenium-builder/transactions/ABegin.html">ABegin</a></td></tr>
-<tr><td><a href="../../../../../../Volumes/Work/code/github/ACS/selenium-builder/transactions/Transactions.html">Transactions</a></td></tr>
-<tr><td><a href="../../../../../../Volumes/Work/code/github/ACS/selenium-builder/transactions/TxnDetails.html">TxnDetails</a></td></tr>
-<tr><td><a href="../../../../../../Volumes/Work/code/github/ACS/selenium-builder/transactions/PANDecrypt.html">PANDecrypt</a></td></tr>
+<tr><td><a href="ABegin.json">ABegin</a></td></tr>
+<tr><td><a href="PANDecrypt.json">PANDecrypt</a></td></tr>
+<tr><td><a href="Transactions.json">Transactions</a></td></tr>
+<tr><td><a href="TxnDetails.json">TxnDetails</a></td></tr>
 </tbody></table>
 </body>
 </html>

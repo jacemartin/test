@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://visa.ci.modirum.com" />
+<title>Transactions</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Transactions</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/mdpayacs-admin/main/main.htm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Transactions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.day</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.month</td>
+	<td>label=10</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.year</td>
+	<td>label=2013</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=before.year</td>
+	<td>label=2013</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=before.month</td>
+	<td>label=10</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=before.day</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=tid</td>
+	<td>2069978</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2013-10-12 02:11:06</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>414720</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[5]</td>
+	<td>27.00 (USD)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdResultsGreen</td>
+	<td>Attempt</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=tid</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pan</td>
+	<td>4147202057864017</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2013-10-12 02:11:06</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>414720</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[5]</td>
+	<td>27.00 (USD)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdResultsGreen</td>
+	<td>Attempt</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pan</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=bin</td>
+	<td>414720</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2013-10-12 02:11:06</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#txrow2 &gt; div.tdItemBg</td>
+	<td>414720</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=4017</td>
+	<td>4017</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow2']/div[7]</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#txrow2 &gt; div.tdResultsGreen</td>
+	<td>Attempt</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=last4</td>
+	<td>4017</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=4017</td>
+	<td>4017</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>414720</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[5]</td>
+	<td>27.00 (USD)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=bin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=last4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=acqBin</td>
+	<td>444444</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2013-10-12 02:11:06</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#txrow5 &gt; div.tdItemBg</td>
+	<td>414720</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow5']/div[5]</td>
+	<td>27.00 (USD)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow5']/div[7]</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=merId</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2013-10-12 02:11:06</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=4017</td>
+	<td>4017</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=acqBin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2013-10-12 02:11:06</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow5']/div[5]</td>
+	<td>27.00 (USD)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow5']/div[7]</td>
+	<td>2013-10-12 02:11:06</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Transactions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.year</td>
+	<td>label=2014</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=before.year</td>
+	<td>label=2014</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.month</td>
+	<td>label=3</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=before.month</td>
+	<td>label=3</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.day</td>
+	<td>label=5</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=before.day</td>
+	<td>label=5</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=issuer.id</td>
+	<td>label=Chase Credit</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:42:32</td>
+	<td>2014-03-05 12:42:32</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#txrow2 &gt; div.tdItemBg</td>
+	<td>400900</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'0092')])[2]</td>
+	<td>0092</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdResultsGreen</td>
+	<td>Fully Authenticated</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow2']/div[7]</td>
+	<td>20140305 12:42:32</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=issuer.id</td>
+	<td>label=ALL</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=status</td>
+	<td>label=1 - Fully authenticated</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:42:32</td>
+	<td>2014-03-05 12:42:32</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>400900</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=0092</td>
+	<td>0092</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>20140305 12:42:32</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=toFssScore</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=fromFssScore</td>
+	<td>label=0</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:42:32</td>
+	<td>2014-03-05 12:42:32</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>400900</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=0092</td>
+	<td>0092</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>20140305 12:42:32</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=status</td>
+	<td>label=ANY</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=toFssScore</td>
+	<td>label=99</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=fromFssScore</td>
+	<td>label=0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=amount</td>
+	<td>2700</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:42:32</td>
+	<td>2014-03-05 12:42:32</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>400900</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=0092</td>
+	<td>0092</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>20140305 12:42:32</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=amount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=xid</td>
+	<td>goG1XJ6ESt1QPP+K2OFrGnDgkw0=</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:42:32</td>
+	<td>2014-03-05 12:42:32</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.tdItemBg</td>
+	<td>400900</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=0092</td>
+	<td>0092</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow1']/div[7]</td>
+	<td>20140305 12:42:32</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=xid</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:44:27</td>
+	<td>2014-03-05 12:44:27</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow11']/div[7]</td>
+	<td>20140305 07:10:12</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow5']/div[7]</td>
+	<td>20140305 12:02:23</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:01:10</td>
+	<td>2014-03-05 12:01:10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=2014-03-05 12:41:49</td>
+	<td>2014-03-05 12:41:49</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//div[@id='txrow7']/div[7]</td>
+	<td>20140305 12:01:10</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=after.day</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=pagelimit</td>
+	<td>label=25</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#txrow25 &gt; div.tdItemBg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=pagelimit</td>
+	<td>label=50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.blueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=//div[@id='txrow50']/div[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Monthly summary']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//h2[2]</td>
+	<td>Monthly summary</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=//thead/tr/td[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=//thead/tr/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.content &gt; table &gt; tbody &gt; tr &gt; td</td>
+	<td>2014</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div[3]/div/table/tbody/tr/td[2]</td>
+	<td>03</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr/td[3]</td>
+	<td>131</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Monthly issuer']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//h2[2]</td>
+	<td>Monthly summary</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.content &gt; table &gt; tbody &gt; tr &gt; td</td>
+	<td>${issuerBrazil}</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div[3]/div/table/tbody/tr[2]/td</td>
+	<td>Chase Credit</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr[3]/td</td>
+	<td>${issuerName}</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr[4]/td</td>
+	<td>Verified by Vesa</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div[3]/div/table/tbody/tr/td[2]</td>
+	<td>2014</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr[2]/td[3]</td>
+	<td>03</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[3]/td[4]</td>
+	<td>47</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[4]/td[5]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.content &gt; table &gt; tbody &gt; tr &gt; td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=//div/table/tbody/tr[4]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Daily summary']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//h2[2]</td>
+	<td>Daily summary</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.content &gt; table &gt; tbody &gt; tr &gt; td</td>
+	<td>2014</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tbody/tr/td[4]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[3]/td[4]</td>
+	<td>43</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//thead/tr/td[3]</td>
+	<td>Day</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr/td[3]</td>
+	<td>05</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr[2]/td[3]</td>
+	<td>04</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[3]/td[3]</td>
+	<td>03</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Daily issuer']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.content &gt; table &gt; tbody &gt; tr &gt; td</td>
+	<td>${issuerBrazil}</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div[3]/div/table/tbody/tr[2]/td</td>
+	<td>Chase Credit</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//div/table/tbody/tr[3]/td</td>
+	<td>${issuerBrazil}</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[7]/td</td>
+	<td>Verified by Vesa</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tbody/tr/td[4]</td>
+	<td>05</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[4]/td[4]</td>
+	<td>04</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//tr[7]/td[4]</td>
+	<td>03</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
