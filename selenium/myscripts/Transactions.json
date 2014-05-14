@@ -13,7 +13,7 @@
         "type": "id",
         "value": "j_username"
       },
-      "text": "adminremove"
+      "text": "admin"
     },
     {
       "type": "setElementText",
