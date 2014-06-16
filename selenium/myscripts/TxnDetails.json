@@ -15,66 +15,45 @@
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='after.day']/*[. = 'label=2']"
+        "type": "id",
+        "value": "txButton"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='after.month']/*[. = 'label=4']"
+        "value": "//div[@class='searchOptions']/input[3]"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='after.year']/*[. = 'label=2014']"
+        "value": "//div[@class='searchOptions']/input[4]"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='before.year']/*[. = 'label=2014']"
+        "value": "//div[@class='searchOptions']/input[5]"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='before.month']/*[. = 'label=4']"
+        "value": "//div[@class='searchOptions']/input[6]"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='before.day']/*[. = 'label=2']"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='after.hour']/*[. = 'label=9']"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='before.hour']/*[. = 'label=9']"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='before.minute']/*[. = 'label=2']"
+        "value": "//table[@class='halfSecond']/tbody/tr[4]/td[2]/input[3]"
       }
     },
     {
@@ -85,11 +64,8 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "(//a[contains(text(),'0000')])[2]"
-      }
+      "type": "verifyTextPresent",
+      "text": "Your search results exceed the display limit. The most recent 1,000 transactions are displayed,"
     }
   ],
   "data": {
