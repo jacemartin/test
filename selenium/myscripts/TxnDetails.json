@@ -4,10 +4,6 @@
   "formatVersion": 2,
   "steps": [
     {
-      "type": "get",
-      "url": "https://visa.ci.modirum.com/mdpayacs-admin/main/main.htm"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
