@@ -99,56 +99,6 @@
         "type": "xpath",
         "value": "//select[@id='before.minute']//option[.='2']"
       }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.blueButton"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "(//a[contains(text(),'0000')])[2]"
-      }
-    },
-    {
-      "type": "switchToWindow",
-      "name": "4840201"
-    },
-    {
-      "type": "assertText",
-      "locator": {
-        "type": "css selector",
-        "value": "h2"
-      },
-      "text": "IP data for transaction 4840201"
-    },
-    {
-      "type": "assertText",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[2]"
-      },
-      "text": "2014-04-02 09:01:27"
-    },
-    {
-      "type": "assertText",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[3]/td[2]"
-      },
-      "text": "EE"
-    },
-    {
-      "type": "assertText",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[5]/td[2]"
-      },
-      "text": "tallinn"
     }
   ],
   "data": {
