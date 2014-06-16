@@ -11,14 +11,6 @@
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "j_username"
-      },
-      "text": "admintanggal"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
         "value": "j_password"
       },
       "text": "Password2"
