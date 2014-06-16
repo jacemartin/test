@@ -16,6 +16,14 @@
       "text": "Password2"
     },
     {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "j_username"
+      },
+      "text": "admintanggal"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
