@@ -1,187 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head profile="http://selenium-ide.openqa.org/profiles/test-case">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="https://visa.ci.modirum.com" />
-<title>TxnDetails</title>
-</head>
-<body>
-<table cellpadding="1" cellspacing="1" border="1">
-<thead>
-<tr><td rowspan="1" colspan="3">TxnDetails</td></tr>
-</thead><tbody>
-<tr>
-	<td>open</td>
-	<td>/mdpayacs-admin/main/main.htm</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Transactions</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=after.day</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=after.month</td>
-	<td>label=4</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=after.year</td>
-	<td>label=2014</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=before.year</td>
-	<td>label=2014</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=before.month</td>
-	<td>label=4</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=before.day</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=after.hour</td>
-	<td>label=9</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=before.hour</td>
-	<td>label=9</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=before.minute</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=input.blueButton</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>xpath=(//a[contains(text(),'0000')])[2]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForPopUp</td>
-	<td>4840201</td>
-	<td>30000</td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>name=4840201</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=h2</td>
-	<td>IP data for transaction 4840201</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>xpath=//td[2]</td>
-	<td>2014-04-02 09:01:27</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>xpath=//tr[3]/td[2]</td>
-	<td>EE</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>xpath=//tr[5]/td[2]</td>
-	<td>tallinn</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=input[type=&quot;button&quot;]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Rule</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>xpath=//div[@id='adaptive']/pre[2]</td>
-	<td>VCAS = 1<br />TOTAL SCORE: 1<br /><br />RULES: <br />======<br />rule [jacerule]: ==&gt; 002<br />SELECTED: jacerule ==&gt; Always Y</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Transactions</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=tid</td>
-	<td>1</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=bin</td>
-	<td>4</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=last4</td>
-	<td>4</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=pan</td>
-	<td>4519950000000000000</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=acqBin</td>
-	<td>45</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=clear</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>id=tid</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>id=bin</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>id=pan</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>id=acqBin</td>
-	<td></td>
-</tr>
-
-</tbody></table>
-</body>
-</html>
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://visa.ci.modirum.com/mdpayacs-admin/main/main.htm"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Transactions"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='after.day']/*[. = 'label=2']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='after.month']/*[. = 'label=4']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='after.year']/*[. = 'label=2014']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='before.year']/*[. = 'label=2014']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='before.month']/*[. = 'label=4']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='before.day']/*[. = 'label=2']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='after.hour']/*[. = 'label=9']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='before.hour']/*[. = 'label=9']"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='before.minute']/*[. = 'label=2']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.blueButton"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "(//a[contains(text(),'0000')])[2]"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

@@ -9,7 +9,8 @@
     },
     {
       "where": "local",
-      "path": "tramm.json"
+      "path": "TxnDetails.json"
     }
-  ]
+  ],
+  "shareState": true
 }
