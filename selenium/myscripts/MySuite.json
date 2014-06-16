@@ -9,7 +9,7 @@
     },
     {
       "where": "local",
-      "path": "TxnDetails.json"
+      "path": "tramm.json"
     }
   ]
 }
