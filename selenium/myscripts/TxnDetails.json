@@ -66,6 +66,13 @@
     {
       "type": "verifyTextPresent",
       "text": "Your search results exceed the display limit. The most recent 1,000 transactions are displayed,"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "User Admin"
+      }
     }
   ],
   "data": {
