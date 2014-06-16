@@ -6,6 +6,10 @@
     {
       "where": "local",
       "path": "Transactions.json"
+    },
+    {
+      "where": "local",
+      "path": "tramm.json"
     }
   ]
 }
