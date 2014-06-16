@@ -13,7 +13,7 @@
         "type": "id",
         "value": "j_password"
       },
-      "text": "Password2"
+      "text": "Password1"
     },
     {
       "type": "setElementText",
