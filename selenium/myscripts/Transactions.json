@@ -149,13 +149,6 @@
         "value": "//tr[5]/td[2]"
       },
       "text": "tallinn"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input[type=\"button\"]"
-      }
     }
   ],
   "data": {
