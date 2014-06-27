@@ -5,13 +5,12 @@
   "scripts": [
     {
       "where": "local",
-      "path": “TxnDetails.json”
-    }
+      "path": "TxnDetails.json"
+    },
     {
       "where": "local",
-      "path": “verifyTrans.json”
+      "path": "verifyTrans.json"
     }
-
   ],
   "shareState": false
 }
