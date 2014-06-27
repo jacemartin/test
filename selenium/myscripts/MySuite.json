@@ -5,11 +5,11 @@
   "scripts": [
     {
       "where": "local",
-      "path": "Transactions.json"
+      "path": "verifyTrans.json"
     },
     {
       "where": "local",
-      "path": "verifyTrans.json"
+      "path": "Transactions.json"
     }
   ],
   "shareState": false
