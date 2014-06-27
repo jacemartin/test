@@ -2,13 +2,14 @@
 	"type": “interpreter-config”,
  	"seleniumVersion": "2",
   	"formatVersion": 1,
-	"configurations": [
+	"scripts": [
 		{
+			“where”: “local”,		 
+                        “path”: ”selenium/myscripts/TxnDetails.json”
+
+		}				
 			
-			"scripts": [
-				"selenium/myscripts/TxnDetails.json”
-			]
            
-		}
+		
 	]
 }
