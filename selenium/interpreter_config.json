@@ -1,5 +1,5 @@
 {
-	"type": “suite”,
+	"type": “interpreter-config”,
  	"seleniumVersion": "2",
   	"formatVersion": 1,
 	"configurations": [
