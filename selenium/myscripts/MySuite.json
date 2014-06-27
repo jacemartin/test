@@ -5,12 +5,7 @@
   "scripts": [
     {
       "where": "local",
-      "path": "verifyTrans.json"
-    },
-    {
-      "where": "local",
-      "path": "Transactions.json"
-    }
-  ],
+      "path": “*.json”
+    }  ],
   "shareState": false
 }
