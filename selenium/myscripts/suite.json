@@ -5,7 +5,7 @@
   "scripts": [
     {
       "where": "local",
-      "path": "TxnDetails.json"
+      "path": “*.json"
     }
   ],
   "shareState": false
