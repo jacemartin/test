@@ -5,7 +5,7 @@
   "scripts": [
     {
       "where": "local",
-      "path": “/selenium/myscripts/TxnDetails.json"
+      "path": “*”
     }
   ],
   "shareState": false
