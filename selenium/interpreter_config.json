@@ -16,7 +16,7 @@
 				}
 			],
 			"scripts": [
-				"selenium/myscripts/*"
+				"selenium/myscripts/TxnDetails.json”
 			]
            
 		}
