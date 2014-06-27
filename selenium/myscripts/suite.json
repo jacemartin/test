@@ -7,6 +7,11 @@
       "where": "local",
       "path": “TxnDetails.json”
     }
+    {
+      "where": "local",
+      "path": “verifyTrans.json”
+    }
+
   ],
   "shareState": false
 }
