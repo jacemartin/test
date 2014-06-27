@@ -4,6 +4,33 @@
   "formatVersion": 2,
   "steps": [
     {
+      "type": "get",
+      "url": "https://visa.ci.modirum.com/mdpayacs-admin/login/login.htm;jsessionid=C7F1F20B8E097857604D480A7298EAEF"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "j_username"
+      },
+      "text": "admintanggal"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "j_password"
+      },
+      "text": "Password1"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "button"
+      }
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
@@ -13,61 +40,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "txButton"
+        "type": "link text",
+        "value": "User Admin"
       }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='searchOptions']/input[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='searchOptions']/input[4]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='searchOptions']/input[5]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='searchOptions']/input[6]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@class='halfSecond']/tbody/tr[4]/td[2]/input[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.blueButton"
-      }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Your search results exceed the display limit. The most recent 1,000 transactions are displayed,"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "User Admin"
+        "value": "Transactions"
       }
     }
   ],
