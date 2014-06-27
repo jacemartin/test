@@ -1,20 +1,10 @@
 {
-	"type": "interpreter-config",
+	"type": “suite”,
+ 	"seleniumVersion": "2",
+  	"formatVersion": 1,
 	"configurations": [
 		{
-			"settings": [
-				{
-					"driverOptions": {
-						"host": "ondemand.saucelabs.com",
-						"port": 80
-					},
-					"browserOptions": {
-						"browserName": "firefox",
-						"username": “${SAUCE_USERNAME},
-						"accessKey": "${SAUCE_ACCESS_KEY}"
-					}
-				}
-			],
+			
 			"scripts": [
 				"selenium/myscripts/TxnDetails.json”
 			]
