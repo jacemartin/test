@@ -5,11 +5,7 @@
   "scripts": [
     {
       "where": "local",
-      "path": "TxnDetails.json"
-    },
-    {
-      "where": "local",
-      "path": "verifyTrans.json"
+      "path": “/selenium/myscripts/TxnDetails.json"
     }
   ],
   "shareState": false
