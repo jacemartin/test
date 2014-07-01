@@ -43,13 +43,6 @@
         "type": "link text",
         "value": "User Admin"
       }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Transactions"
-      }
     }
   ],
   "data": {
